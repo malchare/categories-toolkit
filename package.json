@@ -1,0 +1,19 @@
+{
+  "name": "categories-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev2": "concurrently \"node-sass -o public style.scss\" \"npm start\"",
+    "dev": "concurrently --kill-others \"json-server data.json -p 3001\" \"npm run dev2\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "angular-animate": "^1.6.8",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.2",
+    "json-server": "^0.12.1",
+    "node-sass": "^4.7.2"
+  }
+}
