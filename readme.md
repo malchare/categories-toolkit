@@ -4,14 +4,14 @@ Categories toolkit
 
 ### Prerequisites
 
-Install node
+Install node  
 Install npm
 
 ### Running project
 
 Enter the command:
 
-npm install
+npm install  
 npm run dev
 
 ### Description
