@@ -29,8 +29,12 @@
                 <div class="col-md-12">
                     <div class="col-md-4 lista" ng-repeat="category in categories | filter:searchCategory">
                         <div class="list-group">
-                            <div class="list-group-item list-group-item-action active">{{ category.country }}</div>
-                            <div class="list-item-row list-group-item list-group-item-action" ng-repeat="subcategory in category.subcategories">{{ subcategory.name }} {{ subcategory.surname }}</div>
+                            <div class="list-group-item list-group-item-action active">
+                                {{ category.country }}
+                            </div>
+                            <div class="list-item-row list-group-item list-group-item-action" ng-repeat="subcategory in category.subcategories">
+                                {{ subcategory.name }} {{ subcategory.surname }}
+                            </div>
                         </div>
                     </div>
                 </div>
