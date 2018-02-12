@@ -16,8 +16,9 @@ npm run dev
 
 ### Description
 
-The Categories toolkit app displays json data in the html view at address http://localhost:8000 by using javascript framework angular, nodejs, bootstrap, sass.
+The Categories toolkit app displays json data in the html view at address http://localhost:8000  
+Technology used: javascript framework angular, nodejs, bootstrap, sass
 
 ### Author
 
-Małgorzata Charewicz
+MC
